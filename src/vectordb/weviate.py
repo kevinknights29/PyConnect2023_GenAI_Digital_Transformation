@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 
+import streamlit as st
 import weaviate
 from dotenv import find_dotenv
 from dotenv import load_dotenv
@@ -11,7 +12,10 @@ from src.embeddings import openai
 from src.utils import config
 
 _ = load_dotenv(find_dotenv())
-WEAVIATE_API_KEY = os.getenv("WEAVIATE_API_KEY")
+WEAVIATE_API_KEY = os.getenv(
+    "WEAVIATE_API_KEY",
+    st.secrets.weaviate.api_key,
+)
 
 
 def connect_vectorstore():
