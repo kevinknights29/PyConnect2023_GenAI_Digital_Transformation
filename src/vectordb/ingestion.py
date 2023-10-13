@@ -24,7 +24,7 @@ TEXT_INPUT_DIR = os.path.join(
 )
 
 
-def main():
+def pipeline():
     loader = TextLoader(files.find_file(TEXT_INPUT_DIR, pattern="*.txt"))
     documents = loader.load()
     text_splitter = CharacterTextSplitter(
@@ -42,8 +42,14 @@ def main():
         url=config.config()["vectordb"]["weviate"]["url"],
         auth_client_secret=weaviate.AuthApiKey(WEAVIATE_API_KEY),
     )
-    Weaviate.from_documents(docs, embeddings, client=client, by_text=False)
+    vectorstore = Weaviate.from_documents(
+        docs,
+        embeddings,
+        client=client,
+        by_text=False,
+    )
+    return vectorstore
 
 
 if __name__ == "__main__":
-    main()
+    pipeline()
