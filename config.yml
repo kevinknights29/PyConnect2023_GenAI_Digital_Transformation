@@ -16,3 +16,13 @@ text:
 llm:
   openai:
     model: "gpt-3.5-turbo"
+app:
+  title: "🐍 PyConnect 2023"
+  header: "🤖 GenAI Assistant"
+  subheader: "Este es una app creada como parte de la sesión: 'Construyendo soluciones con Generative AI para la transformación digital '"
+  greeting:
+    - "Hola, gracias por participar del PyConnect 2023."
+    - "Estoy aquí para ayudarte con cualquier duda o consulta que tengas sobre este grandioso evento."
+    - ""
+    - "Intenta preguntando: 'Que sesiones habra el sábado 14 de octubre?'"
+  instruction: "Inserta tu mensaje aquí:"
