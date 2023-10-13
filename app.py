@@ -34,9 +34,14 @@ qa_chain = ConversationalRetrievalChain.from_llm(
     retriever=vectorstore.as_retriever(),
 )
 
+st.set_page_config(
+    page_title=config.config()["app"]["page_title"],
+    page_icon=config.config()["app"]["page_icon"],
+)
 st.title(config.config()["app"]["title"])
 st.header(config.config()["app"]["header"])
 st.subheader(config.config()["app"]["subheader"])
+st.sidebar.success(config.config()["app"]["sidebar"])
 
 if len(msgs.messages) == 0:
     msgs.add_ai_message("\n".join(config.config()["app"]["greeting"]))
