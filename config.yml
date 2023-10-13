@@ -17,6 +17,8 @@ llm:
   openai:
     model: "gpt-3.5-turbo"
 app:
+  page_title: "GenAI App"
+  page_icon: "🐍"
   title: "🐍 PyConnect 2023"
   header: "🤖 GenAI Assistant"
   subheader: "Este es una app creada como parte de la sesión: 'Construyendo soluciones con Generative AI para la transformación digital '"
@@ -25,4 +27,9 @@ app:
     - "Estoy aquí para ayudarte con cualquier duda o consulta que tengas sobre este grandioso evento."
     - ""
     - "Intenta preguntando: 'Que sesiones habra el sábado 14 de octubre?'"
+  sidebar: "Elige una de las opciones arriba"
   instruction: "Inserta tu mensaje aquí:"
+  contact:
+    title: "Información de Contacto"
+  project:
+    title: "Información del Proyecto"
