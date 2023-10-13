@@ -1,0 +1,15 @@
+web:
+  sites:
+    - "https://pyconnect.org/2023/index.html"
+    - "https://pretalx.com/pyconnect-2023/schedule/"
+    - "https://pyconnect.org/2023/codigo-conducta.html"
+vectordb:
+  weviate:
+    url: "https://pyconnect-genai-vdb-n77xb258.weaviate.network"
+  openai:
+    embeddings:
+      model: "text-embedding-ada-002"
+text:
+  input_dir: "input"
+  chunk_size: 1000
+  chunk_overlap: 100
