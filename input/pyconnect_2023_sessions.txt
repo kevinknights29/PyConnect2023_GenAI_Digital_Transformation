@@ -4,6 +4,7 @@ Información sobre Python Panamá.
 Python Panama
 Python Panama
 
+
 Hablemos de la integración de Python en Excel
 13/10, 19:00–19:30 (America/Panama), Sala 1
 Introducción de los requerimientos necesarios para visualizar python en excel.
@@ -11,11 +12,21 @@ Cual seria la ventaja de utilizar Python en excel.
 Danitzel Jurado
 Profesional de Tecnología con más de 20 años en el área, desempeñando diferentes roles como analista de calidad de datos, desarrollador de BI entre otros.
 
+
+SQL para ti usando IA
+13/10, 19:30–20:00 (America/Panama), Sala 1
+Utilizando una librería de código abierto estaremos entrenando una IA en escribir SQL complejos en segundos.
+Abdel G. Martínez L.
+Le encanta profundizar en los problemas cotidianos y resolverlos con tecnología moderna. Para lograrlo se enfoca en entregar resultados clave, construyendo equipos de trabajo extraordinarios y con adaptación rápida a los detalles cambiantes. Esto lo ejecuta en Solusoft, empresa panameña líder en soluciones de tecnología y aplicaciones.
+Le apasiona compartir su conocimiento y experiencia. Es profesor en la Universidad Interamericana de Panamá y en la Fundación de Tecnologías de Panamá, donde es Vicepresidente.
+
+
 Construyendo soluciones con Generative AI para la transformación digital
 14/10, 09:00–09:30 (America/Panama), Sala 2
 Desbloquee el futuro de la innovación entendiendo y aplicando el poder transformador de la IA generativa, profundice en sus mecanismos que impulsan la transformación digital y recopile el conocimiento para construir soluciones en torno a ella.
 Kevin Knights
 Ingeniero de datos experimentado con conocimientos de Python, Cloud, DevOps, Machine Learning y soluciones de datos. Reconocido por mejoras de eficiencia y transformación de procesos.
+
 
 Python para el IoT (Internet de las cosas)
 14/10, 09:00–09:30 (America/Panama), Sala 1
@@ -23,11 +34,13 @@ Uso de Python y micropython en dispositivos utilizados en IoT.
 Gerardo Nuñez Pitty
 Ingeniero Elctronico, con mas de 30 años en el desarrollo de Soluciones Informatica
 
+
 De Topografía a Desarrollador
 14/10, 09:00–09:30 (America/Panama), Virtual
 "La transición de Topografía a Desarrollador es una prueba de que la reinvención profesional es siempre factible. A pesar de los cambios de carrera, con determinación y aprendizaje constante, es posible lograr una nueva trayectoria exitosa en el mundo del desarrollo."
 Renny Espinosa
 Ingeniero Geodesta, especialista en sistemas de información geografica, especialista en programación python para ciencia de datos. 12 años de experiencia en trabajos de topografía y SIG y en el último año desempeñandome como desarrollador por cuenta propia y ahora para una empresa en Valencia, España.
+
 
 Un novato extrayendo los datos del padrón electoral con Python
 14/10, 09:30–10:00 (America/Panama), Sala 1
@@ -35,17 +48,20 @@ Este novato por curiosidad se puso a sacar los datos del padrón electoral (text
 Davis Álvarez
 "Desarrollador de Software con +10 años de experiencia desarrollando aplicaciones web, con enfoque en la resolución de problemas y automatización de procesos corporativos. Me considero un entusiasta autodidacta, me encanta probar nuevos paradigmas tecnológicos, recientemente AI, Machine Learning y Blockchain."
 
+
 Python en DevOps y Automatización de Infraestructura
 14/10, 09:30–10:00 (America/Panama), Sala 2
 Python como herramienta esencial en el mundo de DevOps y automatización de infraestructura mediante tareas para administración de servicios en la nube y servidores locales.
 Alberto Castillo
 Ingeniero DevOps apasionado por el aprendizaje constante y con enfoque a la automatización de tareas. Entusiasta del software libre, código abierto y descentralización de servicios web.
 
+
 Explorando los secretos de la geometría y los fractales con Python
 14/10, 09:30–10:00 (America/Panama), Virtual
 En esta charla, exploraremos la fascinante relación entre la geometría, los fractales y los patrones geométricos que se encuentran en el universo. Aprenderemos cómo utilizar Python y diversas librerías para crear y visualizar estos patrones de manera práctica. Descubriremos cómo los fractales pueden ser generados a partir de algoritmos iterativos simples y cómo pueden representar fenómenos naturales y estructuras complejas en campos como la física, la biología y las matemáticas.
 Maris Botero
 Me dedico a jugar con datos y a descubrir patrones que se esconden en ellos; apartír de ahí cuento historias que conecten a las personas con los algoritmos y la ciencia de datos.Tengo mas preguntas que respuestas, me encanta aprender y en mi tiempo libre cuido mis plantas y hago dibujitos.geometría y los fragtales con python
+
 
 Python y las Evaluaciones de Seguridad Informática
 14/10, 10:00–10:30 (America/Panama), Sala 1
@@ -55,12 +71,14 @@ Gonzalo Nina Mamani de profesión ingeniero en sistemas informáticos se especia
 Actualmente es CTO en Ethical Hacking Consultores con presencia en Latinoamérica.
 Con más de 10 años brindando seguridad a áreas como empresa privada, gobierno, financiero, empresas estratégicas, educación en distintos lugares de América.
 
+
 Crítica de comportamiento de series de tiempo horario en consumos de energía
 14/10, 10:00–10:30 (America/Panama), Sala 2
 El conocimiento de los usuarios en el comportamiento del consumo de energía es un objetivo que todas las organizaciones prestadoras de utilities desean obtener como estrategia competitiva. En este ejercicio vemos que debido a la gran volumetría de datos horarios es necesario realizar clusterización de series de tiempo para luego proceder hacer otras actividades como critica en el comportamiento o pronósticos. Para lo anterior, se empleó frameworks o herramientas para la programación distribuida tales como: Probhet, Tensor Flow y Spark.
 Yeis Taborda Henao
 Me describo como una persona con profundo interés por la academia e investigación, con grado de Ingeniero Industrial e Ingeniero Físico, Especialista en Preparación y Evaluación de Proyectos, Gerencia Financiera y Maestría en Ciencias Estadísticas. Laboro en EPM en las actividades de caracterización de datos, pronósticos y prospectiva de escenarios macro y micro económicos, análisis estadísticos y financieros, actuaría, simulación estadística y modelación de sistemas, diseño e implantación de indicadores de gestión, inteligencia de información, minería de datos, modelación y gestión de riesgos financieros. Cuento con experiencia en logística, simulación de servicios y procesos industriales, gerencia de proyectos tecnológicos en los cuales he obteniendo productos con exitosos resultados. Presento dominios de programación en diversos lenguajes, finanzas, costos y presupuesto, modelos estadísticos, machine learnig, Normas Internacionales de Información Financiera NIIF, riesgo de crédito y en tecnologías de información y comunicación.
 He empleado diversas herramientas analíticas para la elaboración de modelos de pronóstico en riesgo de crédito, segmentación de clientes, detención de objetos, grafos con Redes Neuronales y aprendizaje por refuerzo entre otros para el sector de servicios públicos domiciliarios. Actualmente investigo acerca de aplicaciones físicas teóricas a las finanzas y estadística Bayesiana. Ejercí como líder de Gestión de Riesgo de Crédito en el GRUPO EPM y laboro en el proceso de telemedida.
+
 
 Impacto de los modelos LLM y herramientas de IA en el desarrollo de software con Python
 14/10, 10:00–10:30 (America/Panama), Virtual
@@ -69,6 +87,7 @@ Carlos Andrés Alarcón Castelblanco
 Ingeniero de sistemas y maestro en gerencia TIC, es un destacado profesional en el campo de la ciencia de datos y la inteligencia artificial. Ha ocupado diversos roles en el sector empresarial y en la plataforma de educación en línea Platzi, donde contribuyó al crecimiento de la compañía mediante la creación de métricas relevantes, la implementación de nuevas características basadas en IA para el producto y el fomento de una cultura basada en datos.
 En su papel actual, lidera la Escuela de Ciencia de Datos e Inteligencia Artificial en el equipo de Learning de Platzi. Además, tiene experiencia como consultor de IA, asesorando a organizaciones en su transformación hacia un modelo guiado por datos. Su experticia abarca el manejo de datos, la creación e implementación de modelos de inteligencia artificial, aprendizaje profundo, aprendizaje automático y almacenamiento y procesamiento de de datos.
 
+
 Corporate Python: Fact or Fiction?
 14/10, 10:30–11:00 (America/Panama), Sala 1
 En esta presentación exploraremos el uso de Python en el mundo empresarial, analizando sus ventajas y desafíos. Observaremos cómo Python se adapta a las demandas del mundo corporativo, brindando versatilidad y posibilidades. También discutiremos aspectos como el rendimiento y escalabilidad, proporcionando tips útiles para aquellos interesados en aprender Python y trabajar en empresas grandes.
@@ -76,11 +95,13 @@ Manuel Bastidas
 Soy un Ingeniero en Sistemas con casi 10 años de experiencia en el mundo de la tecnología. He recorrido varios caminos, desde soporte técnico, consultoría, departamentos de IT, arquitectura cloud, inteligencia de negocios y ser socio de un startup.
 Cada etapa ha sido una aventura increíble que me ha permitido conocer a fondo el mundo corporativo. Estoy emocionado por seguir creciendo y compartir mis experiencias con otros apasionados por la tecnología y los negocios!
 
+
 ¿Apostar por Python en el Desarrollo Web?
 14/10, 10:30–11:00 (America/Panama), Sala 2
 Apostar por Python en el desarrollo web es una elección sólida debido a su legibilidad, facilidad de aprendizaje y amplia comunidad de soporte.
 Ismael "v4ld3vrr4m4" Valderrama
 Soy un developer Web, entusiasta del opènsource, con mas de 15 años de experiencia. Pudiendo contribuir en diferentes proyectos de la empresa privada como parte del equipo informatico.
+
 
 Camila Plejia: Asistente Virtual para personas con Tetraplejia
 14/10, 10:30–11:00 (America/Panama), Virtual
@@ -88,13 +109,15 @@ Camila Plejia ayuda a las personas con tetraplejia a mantener su comunicación c
 Sergio Hernán Valenzuela Cámara
 PhD(c) Ciencias de de la Computación Universidad Nacional del Sur (Bahía Blanca - Argentina) | MSc. Software Engineering Universidad Nacional de La Plata (La PLata -Argentina). Fundador de TecnóPolis-Ai. Profesor universitario. Áreas de Interés: Computer Vision, Asistentes Virtuales, Procesamiento de Lenguaje Natural. Ciudadano chileno, hincha de Colo Colo.
 
+
 Más Allá del Código
 14/10, 11:00–11:30 (America/Panama), Sala 1
 Descubre los secretos detrás del desarrollo de software, desde su concepción hasta la propuesta final. Aprenderás mis métodos, recursos y cómo cautivar a los clientes. ¡Únete a un emocionante viaje hacia el éxito en el desarrollo de software y la presentación de propuestas!
 Emmanuel Paternina
-"Emprendedor desde 2010 en softd3v.com , como full stack developer.
+Emprendedor desde 2010 en softd3v.com , como full stack developer.
 Ayudó a organizaciones y profesionales en el desarrollo e implementación de tecnologías para el mejoramiento continuo en sus sistemas de información y en la automatización de procesos bajos soluciones en tecnologías web.
-Soy fiel creyente en el poder de la diversidad que tiene Latino America, y que por medio de la educación continua transformaremos nuestra región y el mundo."
+Soy fiel creyente en el poder de la diversidad que tiene Latino America, y que por medio de la educación continua transformaremos nuestra región y el mundo.
+
 
 Te estreso o me estresas
 14/10, 11:00–11:30 (America/Panama), Sala 2
@@ -103,6 +126,7 @@ Las pruebas de carga y estrés son a menudo pasadas por alto tanto por los admin
 Cristhian Lima Saravia
 Ing de sistemas, apasionado a la seguridad informatica.
 
+
 Python, la clave para escalar un startup de retail en Latinoamérica
 14/10, 11:00–11:30 (America/Panama), Virtual
 El objetivo de esta charla es compartir la experiencia de escalar de una startup en la industria del retail en Latinoamérica de 3 a 200 empleados. Se muestra el rol fundamental de Python en el éxito de la empresa, destacando cómo Python se utilizó para automatizar tareas, analizar datos y crear modelos predictivos.
@@ -110,6 +134,7 @@ Marco Carranza
 Marco Carranza es un emprendedor con más de 15 años de experiencia en la industria tecnológica. En 2015, fundó Teamcore Solutions, una empresa de tecnología especializada en soluciones para el sector retail.
 La empresa ha desarrollado una serie de soluciones innovadoras que utilizan inteligencia artificial, machine learning y big data para ayudar a las empresas retail a optimizar sus operaciones, incrementar la disponibilidad de los productos en las tiendas y mejorando la rentabilidad de estas.
 Carranza es un apasionado de la tecnología y el retail, y está comprometido a ayudar a las empresas de la región a aprovechar las últimas tendencias tecnológicas para mejorar su competitividad. Ha desarrollado diversos proyectos sobre Python y ha participado en diversas conferencias como Pycon para difundir las bondades de estas tecnologías.
+
 
 De la Tiza a la Inteligencia Artificial: La Evolución Educativa a través de IA y el Procesamiento de Lenguaje Natural
 14/10, 11:30–12:15 (America/Panama), Sala 1
