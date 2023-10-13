@@ -8,7 +8,8 @@ python-dotenv
 langchain
 openai
 tiktoken
-gradio
+streamlit
+watchdog
 
 # dev
 pre-commit
