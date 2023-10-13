@@ -21,8 +21,8 @@ def read_markdown_file(markdown_file: str) -> str:
 
 project_markdown = read_markdown_file(
     os.path.join(
-        constants.APP_FOLDER,
-        "README.md",
+        constants.ASSETS_FOLDER,
+        "project.md",
     ),
 )
 st.markdown(project_markdown, unsafe_allow_html=True)
