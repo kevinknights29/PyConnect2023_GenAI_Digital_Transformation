@@ -1,4 +1,14 @@
 # app
+PyYAML
+beautifulsoup4
+requests
+lxml
+weaviate-client
+python-dotenv
+langchain
+openai
+tiktoken
+gradio
 
 # dev
 pre-commit
