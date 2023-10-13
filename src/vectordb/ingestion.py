@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 
+import streamlit as st
 import weaviate
 from dotenv import find_dotenv
 from dotenv import load_dotenv
@@ -16,8 +17,14 @@ from src.utils import files
 
 
 _ = load_dotenv(find_dotenv())
-WEAVIATE_API_KEY = os.getenv("WEAVIATE_API_KEY")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+WEAVIATE_API_KEY = os.getenv(
+    "WEAVIATE_API_KEY",
+    st.secrets.weviate.api_key,
+)
+OPENAI_API_KEY = os.getenv(
+    "OPENAI_API_KEY",
+    st.secrets.openai.api_key,
+)
 TEXT_INPUT_DIR = os.path.join(
     constants.APP_FOLDER,
     config.config()["text"]["input_dir"],
