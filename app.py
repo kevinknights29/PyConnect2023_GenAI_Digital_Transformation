@@ -6,43 +6,41 @@ import openai
 import streamlit as st
 from dotenv import find_dotenv
 from dotenv import load_dotenv
+from langchain.chains import ChatVectorDBChain
+from langchain.memory import ConversationBufferMemory
+from langchain.memory.chat_message_histories import StreamlitChatMessageHistory
 
-from src.utils import config
+from src.llm import text_generation
+from src.vectordb import ingestion
 
 _ = load_dotenv(find_dotenv())
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+openai.api_key = OPENAI_API_KEY
+
+msgs = StreamlitChatMessageHistory(key="langchain_messages")
+memory = ConversationBufferMemory(memory_key="history", chat_memory=msgs)
+
+vectorstore = ingestion.pipeline()
+qa_chain = ChatVectorDBChain.from_llm(
+    llm=text_generation._llm_init(),
+    vectorstore=vectorstore,
+)
 
 st.title("ChatGPT-like clone")
 
-openai.api_key = OPENAI_API_KEY
+if len(msgs.messages) == 0:
+    msgs.add_ai_message("Hola, bienvenido!")
 
-if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = config.config()["llm"]["openai"]["model"]
-
-if "messages" not in st.session_state:
-    st.session_state.messages = []
-
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+for msg in msgs.messages:
+    st.chat_message(msg.type).write(msg.content)
 
 if prompt := st.chat_input("Inserta tu mensaje aqui:"):
-    st.session_state.messages.append({"role": "user", "content": prompt})
-    with st.chat_message("user"):
-        st.markdown(prompt)
+    st.chat_message("Participante").write(prompt)
 
-    with st.chat_message("assistant"):
-        message_placeholder = st.empty()
-        full_response = ""
-        for response in openai.ChatCompletion.create(
-            model=st.session_state["openai_model"],
-            messages=[
-                {"role": m["role"], "content": m["content"]}
-                for m in st.session_state.messages
-            ],
-            stream=True,
-        ):
-            full_response += response.choices[0].delta.get("content", "")
-            message_placeholder.markdown(full_response + "▌")
-        message_placeholder.markdown(full_response)
-    st.session_state.messages.append({"role": "assistant", "content": full_response})
+    response = qa_chain(
+        {
+            "chat_history": msgs.messages,
+            "question": prompt,
+        },
+    )
+    st.chat_message("AI").write(response["answer"])
