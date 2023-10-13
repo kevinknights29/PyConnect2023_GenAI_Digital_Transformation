@@ -19,7 +19,7 @@ from src.utils import files
 _ = load_dotenv(find_dotenv())
 WEAVIATE_API_KEY = os.getenv(
     "WEAVIATE_API_KEY",
-    st.secrets.weviate.api_key,
+    st.secrets.weaviate.api_key,
 )
 OPENAI_API_KEY = os.getenv(
     "OPENAI_API_KEY",
