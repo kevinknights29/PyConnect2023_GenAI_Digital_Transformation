@@ -30,7 +30,14 @@ memory = ConversationBufferMemory(
     return_messages=True,
 )
 
-vectorstore = ingestion.pipeline()
+
+@st.cache_resource()
+def initialize_vectorstore():
+    return ingestion.pipeline()
+
+
+vectorstore = initialize_vectorstore()
+
 qa_chain = ConversationalRetrievalChain.from_llm(
     llm=text_generation._llm_init(temperature=temperature, top_p=top_p),
     retriever=vectorstore.as_retriever(),
