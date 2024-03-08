@@ -20,6 +20,8 @@ OPENAI_API_KEY = os.getenv(
     st.secrets.openai.api_key,
 )
 openai.api_key = OPENAI_API_KEY
+temperature = 0.1
+top_p = 0.95
 
 msgs = StreamlitChatMessageHistory(key="langchain_messages")
 memory = ConversationBufferMemory(
@@ -30,7 +32,7 @@ memory = ConversationBufferMemory(
 
 vectorstore = ingestion.pipeline()
 qa_chain = ConversationalRetrievalChain.from_llm(
-    llm=text_generation._llm_init(),
+    llm=text_generation._llm_init(temperature=temperature, top_p=top_p),
     retriever=vectorstore.as_retriever(),
 )
 
@@ -59,3 +61,31 @@ if prompt := st.chat_input(config.config()["app"]["instruction"]):
         },
     )
     st.chat_message("ai").write(response["answer"])
+
+expander = st.expander("See Model Arguments")
+expander.write(
+    (
+        "Temperature: is a parameter that influences the language model's output, determining whether the output"
+        " is more random and creative or more predictable."
+    ),
+)
+temperature = expander.slider(
+    label="temperature",
+    min_value=0.1,
+    max_value=1.0,
+    step=0.05,
+    value=temperature,
+)
+expander.write(
+    (
+        "Top P: is a parameter that influences the language model's output, by only considering the possibilities"
+        " that equal or exceed this value."
+    ),
+)
+top_p = expander.slider(
+    label="top_p",
+    min_value=0.1,
+    max_value=1.0,
+    step=0.05,
+    value=top_p,
+)
