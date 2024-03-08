@@ -14,6 +14,14 @@ This repo contains the content related to the talk:
 
 ![image](https://github.com/kevinknights29/PyConnect2023_GenAI_Digital_Transformation/assets/74464814/505dbbbb-fda8-4e52-a1a2-ac9b724cd72f)
 
+**New Features**
+
+- Added model arguments control
+
+![image](https://github.com/kevinknights29/PyConnect2023_GenAI_Digital_Transformation/assets/74464814/20518152-0b78-4b46-8c82-778da2cbcee7)
+
+![image](https://github.com/kevinknights29/PyConnect2023_GenAI_Digital_Transformation/assets/74464814/1b2c7d59-3cee-4be4-9880-acbf71ff7bab)
+
 ## Overview
 
 I wanted to showcase the true value of GenAI applications,
